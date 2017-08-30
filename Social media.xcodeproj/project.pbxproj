@@ -15,6 +15,11 @@
 		EA9FBEFA1F56F6DA00C9E3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9FBEF91F56F6DA00C9E3D3 /* Assets.xcassets */; };
 		EA9FBEFD1F56F6DA00C9E3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9FBEFB1F56F6DA00C9E3D3 /* LaunchScreen.storyboard */; };
 		EA9FBF051F56F89000C9E3D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA9FBF041F56F89000C9E3D3 /* GoogleService-Info.plist */; };
+		EAD799E81F571209005D205D /* ViewWithVisualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799E71F571209005D205D /* ViewWithVisualEffects.swift */; };
+		EAD799EB1F5713F1005D205D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799EA1F5713F1005D205D /* Constants.swift */; };
+		EAD799EE1F5717A8005D205D /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799ED1F5717A8005D205D /* RoundBtn.swift */; };
+		EAD799F01F571A40005D205D /* TextFieldWitUsualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */; };
+		EAD799F21F571E3A005D205D /* SignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F11F571E3A005D205D /* SignInBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		EA9FBEFC1F56F6DA00C9E3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA9FBEFE1F56F6DA00C9E3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9FBF041F56F89000C9E3D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAD799E71F571209005D205D /* ViewWithVisualEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithVisualEffects.swift; sourceTree = "<group>"; };
+		EAD799EA1F5713F1005D205D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EAD799ED1F5717A8005D205D /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWitUsualEffects.swift; sourceTree = "<group>"; };
+		EAD799F11F571E3A005D205D /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 		EA9FBEEE1F56F6DA00C9E3D3 /* Social media */ = {
 			isa = PBXGroup;
 			children = (
+				EAD799E91F5713CF005D205D /* Util */,
 				EAD799E31F56FBC8005D205D /* Controller */,
 				EAD799E21F56FBC3005D205D /* View */,
 				EAD799E11F56FBBE005D205D /* Model */,
@@ -106,6 +117,10 @@
 		EAD799E21F56FBC3005D205D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EAD799E71F571209005D205D /* ViewWithVisualEffects.swift */,
+				EAD799ED1F5717A8005D205D /* RoundBtn.swift */,
+				EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */,
+				EAD799F11F571E3A005D205D /* SignInBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -116,6 +131,14 @@
 				EA9FBEF11F56F6DA00C9E3D3 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		EAD799E91F5713CF005D205D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EAD799EA1F5713F1005D205D /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD799EB1F5713F1005D205D /* Constants.swift in Sources */,
 				EA9FBEF81F56F6DA00C9E3D3 /* Social_media.xcdatamodeld in Sources */,
+				EAD799E81F571209005D205D /* ViewWithVisualEffects.swift in Sources */,
+				EAD799F01F571A40005D205D /* TextFieldWitUsualEffects.swift in Sources */,
+				EAD799EE1F5717A8005D205D /* RoundBtn.swift in Sources */,
 				EA9FBEF21F56F6DA00C9E3D3 /* SignInVC.swift in Sources */,
+				EAD799F21F571E3A005D205D /* SignInBtn.swift in Sources */,
 				EA9FBEF01F56F6DA00C9E3D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
