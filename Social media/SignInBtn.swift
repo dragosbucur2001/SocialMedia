@@ -19,7 +19,6 @@ class SignInBtn: UIButton {
         layer.shadowRadius = 5
         layer.cornerRadius = 5.0
 
-    
     }
     
 }

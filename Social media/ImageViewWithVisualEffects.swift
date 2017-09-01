@@ -1,14 +1,14 @@
 //
-//  ViewWithVisualEffects.swift
+//  ImageViewWithVisualEffects.swift
 //  Social media
 //
-//  Created by Ionut-Daniel Ciubotariu on 30/08/2017.
+//  Created by Ionut-Daniel Ciubotariu on 01/09/2017.
 //  Copyright © 2017 Bucur Dragos. All rights reserved.
 //
 
 import UIKit
 
-class ViewWithVisualEffects: UIView {
+class ImageViewWithVisualEffects: UIImageView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -18,7 +18,7 @@ class ViewWithVisualEffects: UIView {
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
         layer.shadowRadius = 5
         layer.cornerRadius = 5.0
-
+        
     }
 
 }

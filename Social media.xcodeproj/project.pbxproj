@@ -21,6 +21,10 @@
 		EAD799F01F571A40005D205D /* TextFieldWitUsualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */; };
 		EAD799F21F571E3A005D205D /* SignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F11F571E3A005D205D /* SignInBtn.swift */; };
 		EAD799F41F584967005D205D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F31F584967005D205D /* FeedVC.swift */; };
+		EAD799F61F586186005D205D /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F51F586186005D205D /* RoundImageView.swift */; };
+		EAD799F81F59525E005D205D /* ImageViewWithVisualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F71F59525E005D205D /* ImageViewWithVisualEffects.swift */; };
+		EAD799FA1F595558005D205D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F91F595558005D205D /* PostCell.swift */; };
+		EAD799FD1F597FD6005D205D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799FC1F597FD6005D205D /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWitUsualEffects.swift; sourceTree = "<group>"; };
 		EAD799F11F571E3A005D205D /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
 		EAD799F31F584967005D205D /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		EAD799F51F586186005D205D /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		EAD799F71F59525E005D205D /* ImageViewWithVisualEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithVisualEffects.swift; sourceTree = "<group>"; };
+		EAD799F91F595558005D205D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		EAD799FC1F597FD6005D205D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		EA9FBEEE1F56F6DA00C9E3D3 /* Social media */ = {
 			isa = PBXGroup;
 			children = (
+				EAD799FB1F597FBF005D205D /* Services */,
 				EAD799E91F5713CF005D205D /* Util */,
 				EAD799E31F56FBC8005D205D /* Controller */,
 				EAD799E21F56FBC3005D205D /* View */,
@@ -123,6 +132,9 @@
 				EAD799ED1F5717A8005D205D /* RoundBtn.swift */,
 				EAD799EF1F571A40005D205D /* TextFieldWitUsualEffects.swift */,
 				EAD799F11F571E3A005D205D /* SignInBtn.swift */,
+				EAD799F51F586186005D205D /* RoundImageView.swift */,
+				EAD799F71F59525E005D205D /* ImageViewWithVisualEffects.swift */,
+				EAD799F91F595558005D205D /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -142,6 +154,14 @@
 				EAD799EA1F5713F1005D205D /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		EAD799FB1F597FBF005D205D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EAD799FC1F597FD6005D205D /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +310,16 @@
 				EAD799F41F584967005D205D /* FeedVC.swift in Sources */,
 				EAD799EB1F5713F1005D205D /* Constants.swift in Sources */,
 				EA9FBEF81F56F6DA00C9E3D3 /* Social_media.xcdatamodeld in Sources */,
+				EAD799F81F59525E005D205D /* ImageViewWithVisualEffects.swift in Sources */,
 				EAD799E81F571209005D205D /* ViewWithVisualEffects.swift in Sources */,
 				EAD799F01F571A40005D205D /* TextFieldWitUsualEffects.swift in Sources */,
+				EAD799F61F586186005D205D /* RoundImageView.swift in Sources */,
 				EAD799EE1F5717A8005D205D /* RoundBtn.swift in Sources */,
 				EA9FBEF21F56F6DA00C9E3D3 /* SignInVC.swift in Sources */,
 				EAD799F21F571E3A005D205D /* SignInBtn.swift in Sources */,
+				EAD799FD1F597FD6005D205D /* DataService.swift in Sources */,
 				EA9FBEF01F56F6DA00C9E3D3 /* AppDelegate.swift in Sources */,
+				EAD799FA1F595558005D205D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
