@@ -25,6 +25,7 @@
 		EAD799F81F59525E005D205D /* ImageViewWithVisualEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F71F59525E005D205D /* ImageViewWithVisualEffects.swift */; };
 		EAD799FA1F595558005D205D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799F91F595558005D205D /* PostCell.swift */; };
 		EAD799FD1F597FD6005D205D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799FC1F597FD6005D205D /* DataService.swift */; };
+		EAD799FF1F59A337005D205D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD799FE1F59A337005D205D /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		EAD799F71F59525E005D205D /* ImageViewWithVisualEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithVisualEffects.swift; sourceTree = "<group>"; };
 		EAD799F91F595558005D205D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		EAD799FC1F597FD6005D205D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EAD799FE1F59A337005D205D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		EAD799E11F56FBBE005D205D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EAD799FE1F59A337005D205D /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				EA9FBEF81F56F6DA00C9E3D3 /* Social_media.xcdatamodeld in Sources */,
 				EAD799F81F59525E005D205D /* ImageViewWithVisualEffects.swift in Sources */,
 				EAD799E81F571209005D205D /* ViewWithVisualEffects.swift in Sources */,
+				EAD799FF1F59A337005D205D /* Post.swift in Sources */,
 				EAD799F01F571A40005D205D /* TextFieldWitUsualEffects.swift in Sources */,
 				EAD799F61F586186005D205D /* RoundImageView.swift in Sources */,
 				EAD799EE1F5717A8005D205D /* RoundBtn.swift in Sources */,
