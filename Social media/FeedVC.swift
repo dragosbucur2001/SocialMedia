@@ -40,7 +40,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBAction func signOutBtnPressed(_ sender: Any) {
         
-        let keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
+        _ = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         try! Auth.auth().signOut()
         
         dismiss(animated: true, completion: nil)
@@ -56,9 +56,13 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let post = posts[indexPath.row]
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell {
+            cell.configureCell(post: posts[indexPath.row])
+            return cell
+        }   else {
+            return PostCell()
+        }
         
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
     }
 
 }
